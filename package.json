@@ -1,0 +1,36 @@
+{
+    "name": "dataLoader",
+    "version": "0.0.0",
+    "description": "dataLoader =================",
+    "main": "index.js",
+    "author": "",
+    "license": "Proprietary",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "make test-cov",
+        "jshint": "make jshint",
+        "test-code-style": "make test-code-style"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:TEAM/dataLoader.git"
+    },
+    "dependencies": {
+        "elasticsearch": "3.0.x",
+        "bluebird": "2.x.x",
+        "lodash": "2.4.x",
+        "request": "2.x.x",
+        "async": "0.9.x",
+        "inquirer": "0.8.x"
+    },
+    "devDependencies": {
+        "lab": "4.x.x",
+        "jshint-junit-reporter": "0.x.x",
+        "confidence": "0.x.x",
+        "rewire": "2.x.x",
+        "should": "4.x.x",
+        "jscs": "1.x.x"
+    }
+}
